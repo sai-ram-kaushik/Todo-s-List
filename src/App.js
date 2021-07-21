@@ -1,20 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
 import {Todos} from "./Components/Todos";
 import {Footer} from "./Components/Footer";
-import React,{useState} from 'react';
-import { AddTodo } from "./Components/AddTodo";
+import React,{useState, useEffect} from 'react';
+import { AddTodo } from "./Components/AddTodo"
 function App() {
+  let initTodo;
+  if(localStorage.getItem("todos") === null){
+    initTodo = [];
+  }
+  else{
+    initTodo = JSON.parse(localStorage.getItem("todos"));
+  }
   const onDelete = (todo)=>{
-    console.log("I am on delete of todo",todo)
+    console.log("I am on delete of todo",todo);
     // let index = todos.indexOf(todo)
     // todos.splice(index,1);
 
     setTodos(todos.filter((e)=>{
       return e!==todo;
     }));
-    localStorage.getItem("todos");
+    console.log("deleted",todos);
   }
 
   const addTodo = (title,desc)=>{
@@ -32,15 +38,15 @@ function App() {
       title: title,
       desc: desc,
     }
-    setTodos([...todos, myTodo])
-    console.log(myTodo)
-    if(localStorage.getItem("todos")){
-      localStorage.setItem("todos",JSON.stringify(todos));
-    }
+    setTodos([...todos, myTodo]);
+    console.log(myTodo);
   }
 
 
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState(initTodo);
+  useEffect(() => {
+    localStorage.setItem("todos",JSON.stringify(todos));
+  }, [todos])
 
   return (
     <>
