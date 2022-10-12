@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+To-do list for Wikipedia:To-do list:edit · history · watch · refresh · Updated 2021-11-10
+Add info on and a link to the new President, Ivo Josipović.
+Add an infobox.
+Update the Criticism section with the latest developments.
+Add Pickwick tea from Sara Lee (pretty substantial brand in Europe).
+Add blue box - "Municipalities and Communities of Wise County, Texas" - to match the quality of the other counties of the Fort Worth Metropolitan Division - Hood, Johnson, Parker, & Tarrant.
+Eliminate the term “reverse racism”.
+Link to To-Do list
+Add Pictures
+Do the To-Do List!
+The template (tag) to include the above is {{to do}}. The dynamic list in the box is drawn from a subpage of the talk page represented simply by "to do."
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For a list of all articles with to-do lists, see Category:Wikipedia pages with to-do lists. Check the category page from time to time if you're looking for articles to help out on. This is a great way to contribute to Wikipedia.
 
-## Available Scripts
+To-do lists focus on improving otherwise adequate articles: tasks in to-do lists are important, significant, but not urgent (example: "insert a history section", or "provide more examples in the introduction").
 
-In the project directory, you can run:
+The "to do" collaboration mechanism has the following advantages:
 
-### `npm start`
+the list of tasks is permanently visible in the talk page of the article, i.e. where most editors will see it.
+articles with To-dos are automatically listed in the list of articles with To dos, so that additional editors unaware of the article are also attracted to it. More specialized sub-categories can be defined for specific purposes (e.g. for a WikiProject).
+Feel free to discuss to-do lists in the talk page of articles, to add new tasks, or to work on pending tasks. We also encourage you to contribute to other articles by visiting the list of "articles with To-dos", at Category:Wikipedia pages with to-do lists.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
